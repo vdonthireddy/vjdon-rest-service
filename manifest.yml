@@ -1,0 +1,5 @@
+---
+applications:
+  - name: vjdon-rest-service
+    buildpack: java_buildpack
+    path: target/vjdon-rest-service-0.0.1-SNAPSHOT.war
