@@ -34,7 +34,7 @@
 		<dependency>
 			<groupId>com.sun.jersey</groupId>
 			<artifactId>jersey-bundle</artifactId>
-			<version>1.19</version>
+			<version>1.8</version>
 		</dependency>
 		<dependency>
 			<groupId>org.json</groupId>
@@ -44,12 +44,23 @@
 		<dependency>
 			<groupId>com.sun.jersey</groupId>
 			<artifactId>jersey-server</artifactId>
-			<version>1.19</version>
+			<version>1.8</version>
 		</dependency>
 		<dependency>
 			<groupId>com.sun.jersey</groupId>
 			<artifactId>jersey-core</artifactId>
-			<version>1.19</version>
+			<version>1.8</version>
 		</dependency>
+		<dependency>
+			<groupId>postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>9.0-801.jdbc4</version>
+		</dependency>
+		
+<!-- 		<dependency> -->
+<!-- 		    <groupId>org.elasticsearch</groupId> -->
+<!-- 		    <artifactId>elasticsearch</artifactId> -->
+<!-- 		    <version>2.2.0</version> -->
+<!-- 		</dependency> -->
 	</dependencies>
 </project>
